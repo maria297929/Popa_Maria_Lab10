@@ -10,7 +10,7 @@ namespace Popa_Maria_Lab10
     public partial class ProductPage : ContentPage
     {
         ShopList sl;
-        public ActivityPage(ShopList slist)
+        public ProductPage(ShopList slist)
         {
             InitializeComponent();
             sl = slist;
